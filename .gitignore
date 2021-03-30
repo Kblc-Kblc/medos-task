@@ -21,3 +21,13 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+
+
+
+class="sign-form__phone"
+              type="tel"
+              placeholder="7 (___) ___ __ __"
+              :class="$v.form.tel.$error ? 'error2' : ''"
+              name="tel"
+              v-model.trim="form.tel"
