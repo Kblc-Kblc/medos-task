@@ -79,7 +79,7 @@
               v-model.trim="form.tel"
               name="phone"
               id="phone"
-              placeholder="7-000-000-00-00"
+              placeholder="7-000-00-00"
               autocomplete="tel"
               v-phone
               :class="$v.form.tel.$error ? 'error2' : ''"
@@ -456,6 +456,7 @@ input[type="tel"] {
 
 input[type="tel"]::placeholder {
   color: #c5d0e0;
+  text-align: center;
 }
 
 label {
@@ -607,7 +608,7 @@ select {
   }
 
   &__phone {
-    max-width: 210px;
+    max-width: 220px;
     display: flex;
     overflow: hidden;
     letter-spacing: 1.5px;
