@@ -79,7 +79,7 @@
               v-model.trim="form.tel"
               name="phone"
               id="phone"
-              placeholder="7-000-000-00-00"
+              placeholder="7-000-00-00"
               autocomplete="tel"
               v-phone
               :class="$v.form.tel.$error ? 'error2' : ''"
