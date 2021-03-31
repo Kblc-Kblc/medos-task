@@ -607,7 +607,7 @@ select {
   }
 
   &__phone {
-    max-width: 210px;
+    max-width: 190px;
     display: flex;
     overflow: hidden;
     letter-spacing: 1.5px;
